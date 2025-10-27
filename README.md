@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone or Download the Project
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/udayasish/movies-tvshows-manager-backend.git
 cd movies-tvshows-manager-backend
 ```
 
