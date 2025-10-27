@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "7fd112a1-24f9-4048-98aa-99d59535e39e",
+		"name": "movies-tvshows-manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32796731"
+	},
+	"item": [
+		{
+			"name": "create-entry",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Game of Thrones\",\r\n    \"type\": \"TV_SHOW\",\r\n    \"director\": \"David Benioff\",\r\n    \"budget\": 15000000,\r\n    \"location\": \"Northern Ireland\",\r\n    \"duration\": 57,\r\n    \"yearTime\": \"2011-2019\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/entries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
